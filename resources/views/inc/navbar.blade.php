@@ -68,7 +68,7 @@
                                 
                             </a>
 
-                            <li><a href="/dashboard">Dashboard</a></li>
+                            <a href="/dashboard" > Dashboard</a>
                             
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                 @csrf

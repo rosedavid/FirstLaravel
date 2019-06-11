@@ -27,7 +27,9 @@
         @include('inc.navbar')
         <div class="container">
             <main class="py-4">
+                <div class="well">
                 @yield('content')
+                </div>
             </main>
         </div>
     </div>
